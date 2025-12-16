@@ -4,9 +4,9 @@ from agent_framework.openai import OpenAIChatClient
 from openai import AsyncOpenAI
 
 async def test():
-    # Use local Ollama instead of OpenAI
+
     local_client = AsyncOpenAI(
-        api_key="dummy_key",  # Ollama doesn't need real key
+        api_key="dummy_key",  
         base_url="http://localhost:11434/v1"
     )
     

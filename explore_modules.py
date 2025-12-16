@@ -18,7 +18,7 @@ print(f"  - AIFunction: {hasattr(agent_framework, 'AIFunction')}")
 print("\nWorkflow Support:")
 try:
     from agent_framework import AgentWorkflow
-    print("  ✅ AgentWorkflow available")
+    print("  AgentWorkflow available")
 except ImportError:
     print("  AgentWorkflow not found")
 
@@ -26,6 +26,6 @@ except ImportError:
 print("\n Observability:")
 try:
     from agent_framework import observability
-    print("  ✅ Observability module available")
+    print("  Observability module available")
 except ImportError:
     print("  Observability not found")
